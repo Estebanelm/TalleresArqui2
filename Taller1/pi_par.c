@@ -47,7 +47,7 @@ int main ()
 
 	step = 1.0/(double) num_steps;
 	/* Use double of system processors (threads) */
-	nprocs=2*omp_get_num_procs();
+	nprocs=128*omp_get_num_procs();
         /*Computes pi for each number of threads*/
 	for (i=1;i<=nprocs;i++){
 		sum = 0.0;

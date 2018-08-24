@@ -19,7 +19,7 @@ Modified by JGG
 #include <stdio.h>
 #include <omp.h>
 
-static long num_steps = 100000000;
+static long num_steps = 10000000;
 double step;
 int main ()
 {
