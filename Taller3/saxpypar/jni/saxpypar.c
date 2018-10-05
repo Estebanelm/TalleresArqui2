@@ -14,7 +14,7 @@ gcc -fopenmp saxpypar.c -o saxpypar
 #include <time.h>
 #include <arm_neon.h>
 
-static long num_elements = 100000000;
+static long num_elements = 10000000;
 
 void fill_array(float32_t* array)
 {

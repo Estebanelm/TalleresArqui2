@@ -24,7 +24,7 @@ gcc -fopenmp complexoperation.c -o complexoperation -lm
 
 #define PI 3.14159265
 
-static long num_sines = 10000000;
+static long num_sines = 1000000;
 
 void fill_array(float *sins, float x)
 {   
